@@ -1,2 +1,15 @@
 Please add your pseudocode to this file
-And a written explanation of your solution
+
+  // Psudeocode
+  // If no substring is found, return an empty array []
+  // For each substring in the array (anchor point):
+  //     For each substring following the anchor point:
+  //         If the substring is a consecutive substring of the input:
+  //             Return the consecutive substrings in the order that they appear
+  // If no substring is found, return an empty array []
+
+
+And a written explanation of your solution:
+Each character in the string is used as a starting point, and all substrings from that point are generated. 
+This ensures all consecutive substrings are included and returned in order.
+This uses the O(n^2) time complexity
